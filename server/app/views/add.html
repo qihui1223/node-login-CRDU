@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <% include header.html %>
+    <div style="width: 800px;margin: auto;">
+        <form action="/user/add" method="post">
+            姓名：<input type="text" name="name">
+            年龄：<input type="text" name="age">
+            职业：<input type="text" name="professional">
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</body>
+</html>

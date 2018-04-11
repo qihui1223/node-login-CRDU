@@ -1,0 +1,22 @@
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">         
+      <a class="navbar-brand" href="/">Nodejs</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <% if (locals.name) { %>
+        <p class="navbar-text navbar-right">
+            <span>欢迎您,<%=name %></span>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/logout" class="navbar-link">登出</a>
+        </p>
+        <% } else { %>
+        <p class="navbar-text navbar-right">
+            <a href="/register" data-toggle="modal" class="navbar-link">注册</a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/login" data-toggle="modal" class="navbar-link">登录</a>
+        </p>
+        <% } %>
+    </div>              
+  </div>
+</div>

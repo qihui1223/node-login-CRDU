@@ -1,2 +1,4 @@
 # node-login-CRDU
-## nodejs + mysql 增删改查以及注册登录和会话控制
+## nodejs + mysql 
+##主要实现
+###注册登录和会话控制以及增删改查
